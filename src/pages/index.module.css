@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #f8f8f8;
+  minheight: 200px;
+  border-radius: 8px;
+}
+
+.draggable {
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: grab;
+  box-shadow: 0 2px 8px rgba(0; 0; 0; 0.2);
+}
+
+.droppable {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
